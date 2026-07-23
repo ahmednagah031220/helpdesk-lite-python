@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local runtime / secrets
+helpdesk.db
+*.db-journal
+.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated agent outputs (keep folder structure + sample eval)
+outputs/emails/*
+!outputs/emails/.gitkeep
+outputs/webhooks/*
+!outputs/webhooks/.gitkeep
+outputs/reports/*
+!outputs/reports/.gitkeep
+!outputs/reports/HD-101.md
+outputs/eval/*
+!outputs/eval/.gitkeep
+!outputs/eval/evaluation-report-mock.json

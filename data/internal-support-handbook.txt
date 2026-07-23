@@ -1,0 +1,19 @@
+Internal Support Handbook
+
+IT Network Issues
+For WiFi and laptop connectivity problems, verify the corporate SSID, forget/re-add the network, restart the wireless adapter, and check VPN status. Escalate to IT if the issue continues after two restarts.
+
+VPN Access
+New contractors need VPN credentials and shared drive access. Confirm manager approval, create the account, and send temporary credentials. Mark as HIGH priority when access is needed within 48 hours.
+
+Printers
+Clear paper trays, check jam sensors, and reboot the printer. If the jam error persists with an empty tray, create an IT facilities ticket for on-site service.
+
+HR Payslips and Leave
+Missing payslips or incorrect leave balances should be routed to HR. Ask for the pay period and employee ID. Do not share payroll details in public channels.
+
+Facilities Requests
+Standing desks, broken chairs, parking passes, and HVAC issues belong to Facilities. Water leaks are URGENT — place a bucket and notify Facilities immediately.
+
+Onboarding
+Coordinate laptop, badge, and account setup for new hires at least five business days before start date.

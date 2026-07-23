@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-07-23T00:22:30.594757+00:00",
+  "provider": "mock",
+  "total": 12,
+  "validOutputs": 12,
+  "validOutputRate": 1.0,
+  "categoryAccuracy": 1.0,
+  "successfulMultiStepCompletions": 12,
+  "multiStepCompletionRate": 1.0,
+  "durationMs": 7,
+  "cases": [
+    {
+      "id": "g1",
+      "expected": "IT",
+      "predicted": "IT",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g2",
+      "expected": "IT",
+      "predicted": "IT",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g3",
+      "expected": "IT",
+      "predicted": "IT",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g4",
+      "expected": "HR",
+      "predicted": "HR",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g5",
+      "expected": "HR",
+      "predicted": "HR",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g6",
+      "expected": "HR",
+      "predicted": "HR",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 0
+    },
+    {
+      "id": "g7",
+      "expected": "FACILITIES",
+      "predicted": "FACILITIES",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g8",
+      "expected": "FACILITIES",
+      "predicted": "FACILITIES",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g9",
+      "expected": "FACILITIES",
+      "predicted": "FACILITIES",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g10",
+      "expected": "OTHER",
+      "predicted": "OTHER",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 1
+    },
+    {
+      "id": "g11",
+      "expected": "IT",
+      "predicted": "IT",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 0
+    },
+    {
+      "id": "g12",
+      "expected": "FACILITIES",
+      "predicted": "FACILITIES",
+      "correct": true,
+      "confidence": 0.86,
+      "multiStepCompleted": true,
+      "evaluatorApproved": true,
+      "durationMs": 0
+    }
+  ]
+}
