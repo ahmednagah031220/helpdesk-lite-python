@@ -22,24 +22,27 @@ from helpdesk.providers import MockProvider, select_provider
 from helpdesk.retrieval import HANDBOOK_CHUNKS
 
 
+class TicketCreate(BaseModel):
+    title: str = Field(min_length=1)
+    description: str = Field(min_length=1)
+    category: Literal["IT", "HR", "FACILITIES", "OTHER"] = "OTHER"
+    submitter: str = "Employee Demo"
+
+
+class AgentRunRequest(BaseModel):
+    provider: Literal["auto", "ollama", "mock"] = "auto"
+
+
+class DecisionRequest(BaseModel):
+    decision: Literal["APPROVED", "REJECTED"]
+
+
 def create_app() -> FastAPI:
     app = FastAPI(
         title="HelpDesk Lite",
         description="Multi-agent IT/HR/Facilities help-desk (Python / FastAPI)",
         version="1.1.0",
     )
-
-    class TicketCreate(BaseModel):
-        title: str = Field(min_length=1)
-        description: str = Field(min_length=1)
-        category: Literal["IT", "HR", "FACILITIES", "OTHER"] = "OTHER"
-        submitter: str = "Employee Demo"
-
-    class AgentRunRequest(BaseModel):
-        provider: Literal["auto", "ollama", "mock"] = "auto"
-
-    class DecisionRequest(BaseModel):
-        decision: Literal["APPROVED", "REJECTED"]
 
     @app.get("/health")
     def health():
